@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: elsapy
+Version: 0.5.1
+Summary: A Python module for use with Elsevier's APIs: Scopus, ScienceDirect, others - see https://api.elsevier.com
+Home-page: https://github.com/ElsevierDev/elsapy
+Download-URL: https://www.github.com/ElsevierDev/elsapy/archive/0.4.6.tar.gz
+Author: Elsevier, Inc.
+Author-email: integrationsupport@elsevier.com
+License: License :: OSI Approved :: BSD License
+Keywords: elsevier api,sciencedirect api,scopus api
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.md
+Requires-Dist: requests
+
+See https://github.com/ElsevierDev/elsapy for the latest information / background to this project.

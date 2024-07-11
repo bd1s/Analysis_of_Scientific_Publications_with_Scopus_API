@@ -1,0 +1,3 @@
+Dans votre terminal . tapez la commande : python app.py
+Ouvrir l'adresse ip donnee dans votre   navigateur 
+tout les images et les fichierscsv sont genere automatiquement le moment de demarrage de application 

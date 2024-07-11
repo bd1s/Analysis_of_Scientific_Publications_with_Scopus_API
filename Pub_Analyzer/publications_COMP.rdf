@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:bibo="http://purl.org/ontology/bibo/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://example.org/author/Garc%C3%ADa_I.">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>García I.</foaf:name>
+    <foaf:member rdf:resource="http://example.org/affiliation/Universidad_Tecnologica_de_la_Mixteca"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/affiliation/Binghamton_University_State_University_of_New_York">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    <foaf:name>Binghamton University State University of New York</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/publication/5">
+    <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
+    <dcterms:subject>COMP</dcterms:subject>
+    <dcterms:title>High Gain Compact Antenna-in-Package Solution Using Like Mushroom Electromagnetic Band Gap for Industrial, Scientific, and Medical Band</dcterms:title>
+    <dcterms:isPartOf>Journal of Electronic Packaging, Transactions of the ASME</dcterms:isPartOf>
+    <bibo:doi>10.1115/1.4065145</bibo:doi>
+    <bibo:volume>147</bibo:volume>
+    <bibo:issue>1</bibo:issue>
+    <dcterms:date>2025-03-01</dcterms:date>
+    <bibo:citedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-0.1234553128007165</bibo:citedBy>
+    <dcterms:creator rdf:resource="http://example.org/author/Hajlaoui_E.A."/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/publication/2">
+    <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
+    <dcterms:subject>COMP</dcterms:subject>
+    <dcterms:title>Authentication, access control and scalability models in Internet of Things Security–A review</dcterms:title>
+    <dcterms:isPartOf>Cyber Security and Applications</dcterms:isPartOf>
+    <bibo:doi>10.1016/j.csa.2024.100057</bibo:doi>
+    <bibo:volume>3</bibo:volume>
+    <dcterms:date>2025-12-01</dcterms:date>
+    <bibo:citedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-0.1234553128007165</bibo:citedBy>
+    <dcterms:creator rdf:resource="http://example.org/author/Kokila_M."/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/affiliation/Qassim_University">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    <foaf:name>Qassim University</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/publication/8">
+    <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
+    <dcterms:subject>COMP</dcterms:subject>
+    <dcterms:title>Entertainment robot based on IoT and VR interaction for motion training posture monitoring</dcterms:title>
+    <dcterms:isPartOf>Entertainment Computing</dcterms:isPartOf>
+    <bibo:doi>10.1016/j.entcom.2024.100788</bibo:doi>
+    <bibo:volume>52</bibo:volume>
+    <dcterms:date>2025-01-01</dcterms:date>
+    <bibo:citedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-0.1234553128007165</bibo:citedBy>
+    <dcterms:creator rdf:resource="http://example.org/author/Tong_S."/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/publication/1">
+    <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
+    <dcterms:subject>COMP</dcterms:subject>
+    <dcterms:title>An approach for assessing the functional vulnerabilities criticality of CPS components</dcterms:title>
+    <dcterms:isPartOf>Cyber Security and Applications</dcterms:isPartOf>
+    <bibo:doi>10.1016/j.csa.2024.100058</bibo:doi>
+    <bibo:volume>3</bibo:volume>
+    <dcterms:date>2025-12-01</dcterms:date>
+    <bibo:citedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-0.1234553128007165</bibo:citedBy>
+    <dcterms:creator rdf:resource="http://example.org/author/Alguliyev_R."/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/publication/0">
+    <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
+    <dcterms:subject>COMP</dcterms:subject>
+    <dcterms:title>Survey of techniques to detect common weaknesses in program binaries</dcterms:title>
+    <dcterms:isPartOf>Cyber Security and Applications</dcterms:isPartOf>
+    <bibo:doi>10.1016/j.csa.2024.100061</bibo:doi>
+    <bibo:volume>3</bibo:volume>
+    <dcterms:date>2025-12-01</dcterms:date>
+    <bibo:citedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-0.1234553128007165</bibo:citedBy>
+    <dcterms:creator rdf:resource="http://example.org/author/Adhikari_A."/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/author/Karthiga_M.">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Karthiga M.</foaf:name>
+    <foaf:member rdf:resource="http://example.org/affiliation/Coimbatore_Institute_of_Technology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/publication/4">
+    <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
+    <dcterms:subject>COMP</dcterms:subject>
+    <dcterms:title>A Kriging Surrogate Model for Ball Grid Array Electronic Packaging With Stochastic Material and Geometrical Parameters</dcterms:title>
+    <dcterms:isPartOf>Journal of Electronic Packaging, Transactions of the ASME</dcterms:isPartOf>
+    <bibo:doi>10.1115/1.4065079</bibo:doi>
+    <bibo:volume>147</bibo:volume>
+    <bibo:issue>1</bibo:issue>
+    <dcterms:date>2025-03-01</dcterms:date>
+    <bibo:citedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-0.1234553128007165</bibo:citedBy>
+    <dcterms:creator rdf:resource="http://example.org/author/Chu_L."/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/affiliation/Universit%C3%A9_de_Tunis_El_Manar">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    <foaf:name>Université de Tunis El Manar</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/affiliation/Universidad_Tecnologica_de_la_Mixteca">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    <foaf:name>Universidad Tecnologica de la Mixteca</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/affiliation/ShanghaiTech_University">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    <foaf:name>ShanghaiTech University</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/publication/6">
+    <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
+    <dcterms:subject>COMP</dcterms:subject>
+    <dcterms:title>Correlation Study on Voiding in Underfill of Large Quantity Ball Grid Array Chip Using Machine Learning</dcterms:title>
+    <dcterms:isPartOf>Journal of Electronic Packaging, Transactions of the ASME</dcterms:isPartOf>
+    <bibo:doi>10.1115/1.4065077</bibo:doi>
+    <bibo:volume>147</bibo:volume>
+    <bibo:issue>1</bibo:issue>
+    <dcterms:date>2025-03-01</dcterms:date>
+    <bibo:citedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-0.1234553128007165</bibo:citedBy>
+    <dcterms:creator rdf:resource="http://example.org/author/Ling_C."/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/author/Tong_S.">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Tong S.</foaf:name>
+    <foaf:member rdf:resource="http://example.org/affiliation/South_China_Agricultural_University"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/publication/7">
+    <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
+    <dcterms:subject>COMP</dcterms:subject>
+    <dcterms:title>Metric cake shop: A serious game for supporting education on ISO/IEC/IEEE 15939:2017 – Systems and software engineering – Measurement process in the context of an undergraduate software engineering course</dcterms:title>
+    <dcterms:isPartOf>Computer Standards and Interfaces</dcterms:isPartOf>
+    <bibo:doi>10.1016/j.csi.2024.103879</bibo:doi>
+    <bibo:volume>91</bibo:volume>
+    <dcterms:date>2025-01-01</dcterms:date>
+    <bibo:citedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-0.1234553128007165</bibo:citedBy>
+    <dcterms:creator rdf:resource="http://example.org/author/Garc%C3%ADa_I."/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/author/Ling_C.">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Ling C.</foaf:name>
+    <foaf:member rdf:resource="http://example.org/affiliation/Universiti_Sains_Malaysia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/author/Alguliyev_R.">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Alguliyev R.</foaf:name>
+    <foaf:member rdf:resource="http://example.org/affiliation/%C4%B0nformasiya_Texnologiyalar%C4%B1_%C4%B0nstitutu_Az%C9%99rbaycan_Respublikas%C4%B1n%C4%B1n_Elm_v%C9%99_T%C9%99hsil_Nazirliyi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/publication/3">
+    <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
+    <dcterms:subject>COMP</dcterms:subject>
+    <dcterms:title>Securing IoT devices with fast and energy efficient implementation of PRIDE and PRESENT ciphers</dcterms:title>
+    <dcterms:isPartOf>Cyber Security and Applications</dcterms:isPartOf>
+    <bibo:doi>10.1016/j.csa.2024.100055</bibo:doi>
+    <bibo:volume>3</bibo:volume>
+    <dcterms:date>2025-12-01</dcterms:date>
+    <bibo:citedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-0.1234553128007165</bibo:citedBy>
+    <dcterms:creator rdf:resource="http://example.org/author/Dahiphale_V."/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/affiliation/KU_School_of_Engineering">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    <foaf:name>KU School of Engineering</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/author/Kokila_M.">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Kokila M.</foaf:name>
+    <foaf:member rdf:resource="http://example.org/affiliation/VIT-AP_University"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/affiliation/VIT-AP_University">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    <foaf:name>VIT-AP University</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/affiliation/Coimbatore_Institute_of_Technology">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    <foaf:name>Coimbatore Institute of Technology</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/author/Hajlaoui_E.A.">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Hajlaoui E.A.</foaf:name>
+    <foaf:member rdf:resource="http://example.org/affiliation/Universit%C3%A9_de_Tunis_El_Manar"/>
+    <foaf:member rdf:resource="http://example.org/affiliation/Qassim_University"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/publication/9">
+    <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
+    <dcterms:subject>COMP</dcterms:subject>
+    <dcterms:title>Entertainment analysis in gaming model for business management with decision making and Machine learning model</dcterms:title>
+    <dcterms:isPartOf>Entertainment Computing</dcterms:isPartOf>
+    <bibo:doi>10.1016/j.entcom.2024.100725</bibo:doi>
+    <bibo:volume>52</bibo:volume>
+    <dcterms:date>2025-01-01</dcterms:date>
+    <bibo:citedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-0.1234553128007165</bibo:citedBy>
+    <dcterms:creator rdf:resource="http://example.org/author/Karthiga_M."/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/author/Dahiphale_V.">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Dahiphale V.</foaf:name>
+    <foaf:member rdf:resource="http://example.org/affiliation/Binghamton_University_State_University_of_New_York"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/affiliation/%C4%B0nformasiya_Texnologiyalar%C4%B1_%C4%B0nstitutu_Az%C9%99rbaycan_Respublikas%C4%B1n%C4%B1n_Elm_v%C9%99_T%C9%99hsil_Nazirliyi">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    <foaf:name>İnformasiya Texnologiyaları İnstitutu Azərbaycan Respublikasının Elm və Təhsil Nazirliyi</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/affiliation/Universiti_Sains_Malaysia">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    <foaf:name>Universiti Sains Malaysia</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/affiliation/South_China_Agricultural_University">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    <foaf:name>South China Agricultural University</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/author/Adhikari_A.">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Adhikari A.</foaf:name>
+    <foaf:member rdf:resource="http://example.org/affiliation/KU_School_of_Engineering"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/author/Chu_L.">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Chu L.</foaf:name>
+    <foaf:member rdf:resource="http://example.org/affiliation/ShanghaiTech_University"/>
+  </rdf:Description>
+</rdf:RDF>

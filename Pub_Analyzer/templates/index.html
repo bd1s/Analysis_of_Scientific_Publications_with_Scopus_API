@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pub_Analyzer</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+      }
+      .chart-section,
+      .rdf-section {
+        width: 80%;
+        margin-bottom: 20px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        background-color: #f9f9f9;
+      }
+      .chart-container {
+        margin-top: 20px;
+      }
+      .chart-container img {
+        max-width: 100%;
+        height: auto;
+      }
+      .hidden {
+        display: none;
+        color: green;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="rdf-section">
+        <h2>RDF Data</h2>
+        <button id="generateRdfButton">Generate RDF for COMP</button>
+        <span id="successMessage" class="hidden">Successfully generated</span>
+      </div>
+      <div class="chart-section">
+        <h1 class="title">Data Visualization</h1>
+        <div class="dropdown">
+          <label for="chartSelector">Select a chart:</label>
+          <select id="chartSelector">
+            <option value="citations_distribution.png">
+              Distribution of Citations per Publication
+            </option>
+            <option value="citations_by_author.png">
+              Distribution of Citations by Author (Top 10)
+            </option>
+            <option value="publications_by_author.png">
+              Number of Publications by Author (Top 10)
+            </option>
+            <option value="publications_by_year.png">
+              Number of Publications by Year
+            </option>
+            <option value="publications_by_journal.png">
+              Distribution of Publications by Journal (Top 10)
+            </option>
+            <option value="publications_by_topic.png">
+              Distribution of Publications by Topic
+            </option>
+            <option value="publications_by_affiliation.png">
+              Distribution of Publications by Affiliation (Top 10)
+            </option>
+            <option value="affiliations_by_country.png">
+              Geographical Distribution of Affiliations by Country
+            </option>
+          </select>
+        </div>
+        <div class="chart-container">
+          <img id="chartImage" src="" alt="Selected Chart" />
+        </div>
+      </div>
+    </div>
+
+    <script>
+      $(document).ready(function () {
+        function updateChart() {
+          var selectedChart = $("#chartSelector").val();
+          $("#chartImage").attr("src", "/plots/" + selectedChart);
+        }
+
+        $("#chartSelector").change(updateChart);
+        $("#chartSelector").trigger("change");
+        $("#generateRdfButton").click(function () {
+          $.post("/generate_rdf", function (data) {
+            $("#successMessage").show();
+          }).fail(function (xhr, status, error) {
+            var errorMessage =
+              xhr.responseText || "Error generating RDF. Please try again.";
+            alert(errorMessage);
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
